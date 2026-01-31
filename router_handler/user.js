@@ -9,9 +9,9 @@ const DEEPSEEK_URL = 'https://api.siliconflow.cn/v1/chat/completions';
 const dl='select * from UserTable where account=$1'
 const zc='insert into UserTable (account,password,username) values ($1,$2,$3)'
 const {secretKey} =require('../jwt')
-const auth=require('../auth')
-const { message } = require('rhea')
-const { date } = require('joi')
+// const auth=require('../auth')
+// const { message } = require('rhea')
+// const { date } = require('joi')
 // exports.login=(req,res)=>{
 //     const userinfo=req.body
 //     db.query(dl,userinfo.idCard,(err,results)=>{
