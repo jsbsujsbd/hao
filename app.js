@@ -3,7 +3,7 @@ const { expressjwt } = require('express-jwt');
 const {secretKey} =require('./jwt')  // 7.x 必须解构
 const app=express()
 const cors=require("cors")
-const router=require('../宠物管理后台/router/user')
+const router=require('./router/user')
 const { default: axios } = require('axios')
 const auth=require('./auth')
 app.use(cors({
