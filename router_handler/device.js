@@ -1,4 +1,3 @@
-const { message } = require('rhea')
 const db=require('../db/index')
 const AddDevice='insert into Device(account,device_specification,bind_time,firmware_version,device_name,device_number,last_online_time,device_model) values ($1,$2,$3,$4,$5,$6,$7,$8)'
 const SelectDevice='select * from Device,UserTable where UserTable.account=$1 and Device.device_number=$2 and Device.account=UserTable.account '

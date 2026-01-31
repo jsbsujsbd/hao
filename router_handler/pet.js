@@ -1,4 +1,3 @@
-const { message } = require('rhea')
 const db=require('../db/index')
 //登录部分
 const IrPet='insert into petTable(account,petName,petKind,petWeight,petBirth) values ($1,$2,$3,$4,$5)'
